@@ -2,8 +2,8 @@ import pyautogui
 import webbrowser
 from time import sleep
 
-numeros_file = numeros.txt
-mensajes_file = mensajes.txt
+numeros_file = 'numeros.txt'
+mensajes_file = 'mensajes.txt'
 
 def leer_numeros():
     with open(numero_file,'r') as numeros:
